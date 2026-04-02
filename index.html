@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>STAR PROJECT // SYSTEM ONLINE</title>
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800;900&family=Rajdhani:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="scanline-sweep"></div>
+
+<!-- NAV -->
+<nav>
+  <div class="left">
+    <span>STAR_PROJECT</span>
+    <span style="opacity:0.3">//</span>
+    <span style="color:var(--muted)">v0.1.0-alpha</span>
+  </div>
+  <div class="right">
+    <a href="#services">SERVICES</a>
+    <a href="#ecosystem">ECOSYSTEM</a>
+    <a href="#manifesto">ABOUT</a>
+    <a href="#cta" style="color:var(--cyan)">ACCESS<span class="blink">_</span></a>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="hero-noise"></div>
+  <div class="hero-grid"></div>
+
+  <!-- Data rain columns -->
+  <div class="data-rain" style="left:5%">01001001001011100101010011101001010100111010001101010011101001010101001110100101010</div>
+  <div class="data-rain" style="left:15%;animation-duration:25s;color:var(--violet)">A7F3B2E1D4C6A8F2B1E3D5C7A9F4B2E1D6C8A0F5B3E2D7C9A1F6B4E3D8C0A2F7B5E4D9C1A3</div>
+  <div class="data-rain" style="left:25%;animation-duration:18s">node.signal.transmit.receive.decode.encrypt.hash.verify.compile.execute.return.await.resolve</div>
+  <div class="data-rain" style="left:55%;animation-duration:22s;color:var(--pink)">ERR_NULLREF_0x7F3A::STACK_OVERFLOW::SEGFAULT::BUFFER_UNDERRUN::HEAP_CORRUPT::MEM_LEAK_DETECTED</div>
+  <div class="data-rain" style="left:75%;animation-duration:30s">STAR_SEARCH::STAR_CLOUD::STAR_AI::STAR_MUSIC::STAR_PAY::STAR_MAPS::STAR_BROWSER::STAR_STREAM</div>
+  <div class="data-rain" style="left:90%;animation-duration:16s;color:var(--acid)">████████░░░░████░░████████░░░░████░░████████░░░░████░░████████░░░░████░░</div>
+
+  <!-- Glitch bars -->
+  <div class="glitch-bar" style="top:30%;left:10%;width:30%;animation-delay:0s"></div>
+  <div class="glitch-bar" style="top:55%;left:40%;width:45%;animation-delay:2s;background:var(--cyan)"></div>
+  <div class="glitch-bar" style="top:75%;left:5%;width:25%;animation-delay:4s;background:var(--acid)"></div>
+
+  <!-- PCB data strips -->
+  <div class="pcb-border-top">
+    <div class="pcb-strip">
+      R42 ◻ C14 ◻ L1 ◻ R169 ◻ LT1-1102 ◻ 11801S ◻ C138 ◻ R10 ◻ Q7 ◻ U3 ◻ IC2 ◻ D14 ◻ R42 ◻ C14 ◻ L1 ◻ R169 ◻ LT1-1102 ◻ 11801S ◻ C138 ◻ R10 ◻ Q7 ◻ U3 ◻ IC2 ◻ D14 ◻ R42 ◻ C14 ◻ L1 ◻ R169 ◻ LT1-1102 ◻ 11801S ◻ C138 ◻
+    </div>
+  </div>
+  <div class="pcb-border-bottom">
+    <div class="pcb-strip" style="color:var(--pink);animation-direction:reverse">
+      PROPERTY OF STAR_PROJECT ◻ PN: 33.50-00020-003 ◻ TOP LEVEL 1.52 ◻ DA: MFR CODE ◻ REV.C ◻ PROPERTY OF STAR_PROJECT ◻ PN: 33.50-00020-003 ◻ TOP LEVEL 1.52 ◻ DA: MFR CODE ◻ REV.C ◻
+    </div>
+  </div>
+
+  <!-- Terminal blocks scattered -->
+  <div class="terminal-block" style="top:15%;left:3%">
+    <div class="header">SYS.STATUS</div>
+    <div><span class="val">ONLINE</span> — all nodes</div>
+    <div>uptime: <span class="val">∞</span></div>
+    <div>load: <span class="val">0.42</span></div>
+    <div class="err">WARN: alpha build</div>
+  </div>
+
+  <div class="terminal-block" style="top:20%;right:3%">
+    <div class="header">NET.TRAFFIC</div>
+    <div>IN: <span class="val">847.2 MB/s</span></div>
+    <div>OUT: <span class="val">1.2 GB/s</span></div>
+    <div>PEERS: <span class="val">14,892</span></div>
+    <div>LATENCY: <span class="val">3ms</span></div>
+  </div>
+
+  <div class="terminal-block" style="bottom:18%;left:3%">
+    <div class="header">AI.CORE</div>
+    <div>model: <span class="val">star-7b</span></div>
+    <div>tokens/s: <span class="val">2,847</span></div>
+    <div>ctx: <span class="val">128k</span></div>
+    <div>status: <span class="val">INFERENCE</span></div>
+  </div>
+
+  <div class="terminal-block" style="bottom:15%;right:3%">
+    <div class="header">CLUSTER.MAP</div>
+    <div>NL-FLEV-01: <span class="val">OK</span></div>
+    <div>DE-FRA-02: <span class="val">OK</span></div>
+    <div>JP-TKY-03: <span class="val">OK</span></div>
+    <div>US-NYC-04: <span class="err">SYNC</span></div>
+  </div>
+
+  <!-- LOGO -->
+  <div class="hero-logo">
+    <div class="ghost-logo r">
+      <svg viewBox="0 0 200 200"><g transform="translate(100,100)"><path d="M0 -72 L14 -21 L0 -9 L-14 -21 Z" fill="#FF4081"/><path d="M72 0 L21 14 L9 0 L21 -14 Z" fill="#FF4081"/><path d="M0 72 L-14 21 L0 9 L14 21 Z" fill="#FF4081"/><path d="M-72 0 L-21 -14 L-9 0 L-21 14 Z" fill="#FF4081"/></g></svg>
+    </div>
+    <div class="ghost-logo b">
+      <svg viewBox="0 0 200 200"><g transform="translate(100,100)"><path d="M0 -72 L14 -21 L0 -9 L-14 -21 Z" fill="#76FF03"/><path d="M72 0 L21 14 L9 0 L21 -14 Z" fill="#76FF03"/><path d="M0 72 L-14 21 L0 9 L14 21 Z" fill="#76FF03"/><path d="M-72 0 L-21 -14 L-9 0 L-21 14 Z" fill="#76FF03"/></g></svg>
+    </div>
+    <svg viewBox="0 0 200 200">
+      <g transform="translate(100,100)">
+        <circle cx="0" cy="0" r="90" fill="none" stroke="#00E5FF" stroke-width="0.5" opacity="0.2"/>
+        <path d="M0 -72 L14 -21 L0 -9 L-14 -21 Z" fill="#00E5FF"/>
+        <path d="M72 0 L21 14 L9 0 L21 -14 Z" fill="#00E5FF"/>
+        <path d="M0 72 L-14 21 L0 9 L14 21 Z" fill="#00E5FF"/>
+        <path d="M-72 0 L-21 -14 L-9 0 L-21 14 Z" fill="#00E5FF"/>
+        <path d="M0 -12 L12 0 L0 12 L-12 0 Z" fill="#7C4DFF"/>
+        <line x1="10" y1="-10" x2="50" y2="-50" stroke="#7C4DFF" stroke-width="0.5" opacity="0.5"/>
+        <line x1="10" y1="10" x2="50" y2="50" stroke="#7C4DFF" stroke-width="0.5" opacity="0.5"/>
+        <line x1="-10" y1="-10" x2="-50" y2="-50" stroke="#7C4DFF" stroke-width="0.5" opacity="0.5"/>
+        <line x1="-10" y1="10" x2="-50" y2="50" stroke="#7C4DFF" stroke-width="0.5" opacity="0.5"/>
+        <circle cx="52" cy="-52" r="2" fill="#7C4DFF" opacity="0.7"/>
+        <circle cx="52" cy="52" r="2" fill="#7C4DFF" opacity="0.7"/>
+        <circle cx="-52" cy="-52" r="2" fill="#7C4DFF" opacity="0.7"/>
+        <circle cx="-52" cy="52" r="2" fill="#7C4DFF" opacity="0.7"/>
+      </g>
+    </svg>
+  </div>
+
+  <h1 class="hero-title">
+    <span class="star-word">STAR</span> <span class="project-word">PROJECT</span>
+  </h1>
+  <div class="hero-subtitle">DIGITAL ECOSYSTEM <span class="sep">//</span> 2026 <span class="sep">//</span> ALPHA BUILD</div>
+
+  <div class="hero-cta">
+    <a href="#cta" class="btn-raw">GET ACCESS_</a>
+    <a href="#services" class="btn-ghost">EXPLORE</a>
+  </div>
+</section>
+
+<!-- DATA STRIP -->
+<div class="data-strip">
+  <div class="data-strip-inner">
+    <span>&nbsp;&nbsp;&nbsp;◻ <span class="highlight">STAR_SEARCH</span> — INDEXING 4.2B PAGES ◻ <span class="ok">STAR_AI</span> — MODEL v7b INFERENCE READY ◻ <span class="warn">STAR_PAY</span> — BETA: 0% COMMISSION ◻ STAR_CLOUD — E2E ENCRYPTED ◻ <span class="highlight">STAR_BROWSER</span> — BUILT-IN VPN ◻ STAR_MUSIC — LOSSLESS STREAMING ◻ <span class="warn">HOLST</span> — CREATIVE SPACES: AMSTERDAM, TOKYO, NYC ◻ STAR_MAPS — AR NAVIGATION ACTIVE ◻ <span class="ok">STAR_STREAM</span> — WATCH PARTY ENABLED ◻ STAR_SOCIAL — DECENTRALIZED PROTOCOL ◻&nbsp;&nbsp;&nbsp;</span>
+    <span>&nbsp;&nbsp;&nbsp;◻ <span class="highlight">STAR_SEARCH</span> — INDEXING 4.2B PAGES ◻ <span class="ok">STAR_AI</span> — MODEL v7b INFERENCE READY ◻ <span class="warn">STAR_PAY</span> — BETA: 0% COMMISSION ◻ STAR_CLOUD — E2E ENCRYPTED ◻ <span class="highlight">STAR_BROWSER</span> — BUILT-IN VPN ◻ STAR_MUSIC — LOSSLESS STREAMING ◻ <span class="warn">HOLST</span> — CREATIVE SPACES: AMSTERDAM, TOKYO, NYC ◻ STAR_MAPS — AR NAVIGATION ACTIVE ◻ <span class="ok">STAR_STREAM</span> — WATCH PARTY ENABLED ◻ STAR_SOCIAL — DECENTRALIZED PROTOCOL ◻&nbsp;&nbsp;&nbsp;</span>
+  </div>
+</div>
+
+<!-- SERVICES -->
+<section class="services" id="services">
+  <div class="services-header">
+    <h2>18 <span>SERVICES</span>. ONE ORGANISM.</h2>
+    <div class="count">SRV_COUNT: 18 // CLUSTERS: 6 // STATUS: ALL_ONLINE</div>
+  </div>
+
+  <div class="service-grid">
+    <div class="service-cell" data-index="01">
+      <div class="svc-name"><span class="svc-color" style="background:var(--cyan)"></span>STAR SEARCH</div>
+      <div class="svc-desc">AI-поиск нового поколения. Zero-tracking. 4.2B проиндексированных страниц.</div>
+      <div class="svc-tags">search · web · images · code</div>
+      <div class="svc-status" style="color:var(--acid)">● LIVE</div>
+    </div>
+
+    <div class="service-cell" data-index="02">
+      <div class="svc-name"><span class="svc-color" style="background:var(--cyan)"></span>STAR BROWSER</div>
+      <div class="svc-desc">Встроенный VPN, блокировка трекеров, нативная интеграция всех сервисов.</div>
+      <div class="svc-tags">browser · privacy · vpn · fast</div>
+      <div class="svc-status" style="color:var(--acid)">● LIVE</div>
+    </div>
+
+    <div class="service-cell" data-index="03">
+      <div class="svc-name"><span class="svc-color" style="background:var(--cyan)"></span>STAR MAIL</div>
+      <div class="svc-desc">Зашифрованная почта. Интегрирована с Messenger и AI-ассистентом.</div>
+      <div class="svc-tags">email · encrypted · smart</div>
+      <div class="svc-status" style="color:var(--gold)">● BETA</div>
+    </div>
+
+    <div class="service-cell" data-index="04">
+      <div class="svc-name"><span class="svc-color" style="background:var(--violet)"></span>STAR CLOUD</div>
+      <div class="svc-desc">Безлимитное хранилище. E2E шифрование. Синхронизация со всеми сервисами.</div>
+      <div class="svc-tags">storage · sync · e2e · unlimited</div>
+      <div class="svc-status" style="color:var(--acid)">● LIVE</div>
+    </div>
+
+    <div class="service-cell" data-index="05">
+      <div class="svc-name"><span class="svc-color" style="background:var(--violet)"></span>STAR DRIVE</div>
+      <div class="svc-desc">Файловый менеджер экосистемы. Единая точка доступа ко всем данным.</div>
+      <div class="svc-tags">files · access · share</div>
+      <div class="svc-status" style="color:var(--acid)">● LIVE</div>
+    </div>
+
+    <div class="service-cell" data-index="06">
+      <div class="svc-name"><span class="svc-color" style="background:var(--light)"></span>STAR AI</div>
+      <div class="svc-desc">Мультимодальный ассистент. Контекст всей экосистемы. 128k контекст.</div>
+      <div class="svc-tags">assistant · multimodal · context</div>
+      <div class="svc-status" style="color:var(--acid)">● LIVE</div>
+    </div>
+
+    <div class="service-cell" data-index="07">
+      <div class="svc-name"><span class="svc-color" style="background:var(--pink)"></span>STAR MUSIC</div>
+      <div class="svc-desc">Lossless стриминг. AI-радио. Социальное прослушивание через Watch Party.</div>
+      <div class="svc-tags">music · lossless · radio · social</div>
+      <div class="svc-status" style="color:var(--gold)">● BETA</div>
+    </div>
+
+    <div class="service-cell" data-index="08">
+      <div class="svc-name"><span class="svc-color" style="background:var(--pink)"></span>STAR STREAM</div>
+      <div class="svc-desc">Видеоплатформа. Контент от Games Studio и Animation. Watch Party встроена.</div>
+      <div class="svc-tags">video · 4k · originals · party</div>
+      <div class="svc-status" style="color:var(--pink)">● DEV</div>
+    </div>
+
+    <div class="service-cell" data-index="09">
+      <div class="svc-name"><span class="svc-color" style="background:var(--pink)"></span>WATCH PARTY</div>
+      <div class="svc-desc">Совместный просмотр видео в реальном времени. Синхронизация, чат, реакции.</div>
+      <div class="svc-tags">sync · social · realtime</div>
+      <div class="svc-status" style="color:var(--acid)">● LIVE</div>
+    </div>
+
+    <div class="service-cell" data-index="10">
+      <div class="svc-name"><span class="svc-color" style="background:var(--acid)"></span>STAR PAY</div>
+      <div class="svc-desc">0% комиссии внутри экосистемы. Виртуальные карты. Мгновенные переводы.</div>
+      <div class="svc-tags">payments · cards · crypto · instant</div>
+      <div class="svc-status" style="color:var(--gold)">● BETA</div>
+    </div>
+
+    <div class="service-cell" data-index="11">
+      <div class="svc-name"><span class="svc-color" style="background:var(--gold)"></span>STAR MARKET</div>
+      <div class="svc-desc">Маркетплейс с интеграцией Pay и Maps. AI-рекомендации. Честные отзывы.</div>
+      <div class="svc-tags">marketplace · delivery · ai</div>
+      <div class="svc-status" style="color:var(--pink)">● DEV</div>
+    </div>
+
+    <div class="service-cell" data-index="12">
+      <div class="svc-name"><span class="svc-color" style="background:var(--gold)"></span>STAR MAPS</div>
+      <div class="svc-desc">Навигация. AR-слой. Интеграция доставки Market. Офлайн-карты.</div>
+      <div class="svc-tags">maps · ar · offline · delivery</div>
+      <div class="svc-status" style="color:var(--acid)">● LIVE</div>
+    </div>
+
+    <div class="service-cell" data-index="13">
+      <div class="svc-name"><span class="svc-color" style="background:var(--violet)"></span>STAR SOCIAL</div>
+      <div class="svc-desc">Децентрализованная соцсеть. Алгоритмы под контролем пользователя.</div>
+      <div class="svc-tags">social · decentralized · feed</div>
+      <div class="svc-status" style="color:var(--pink)">● DEV</div>
+    </div>
+
+    <div class="service-cell" data-index="14">
+      <div class="svc-name"><span class="svc-color" style="background:var(--violet)"></span>STAR MESSENGER</div>
+      <div class="svc-desc">E2E мессенджер. Интеграция с Mail, Social, AI. Голос, видео, экран.</div>
+      <div class="svc-tags">chat · voice · video · e2e</div>
+      <div class="svc-status" style="color:var(--gold)">● BETA</div>
+    </div>
+
+    <div class="service-cell" data-index="15">
+      <div class="svc-name"><span class="svc-color" style="background:var(--cyan)"></span>STAR VPN</div>
+      <div class="svc-desc">Встроен в Browser. Отдельное приложение для всех устройств. No-log.</div>
+      <div class="svc-tags">vpn · privacy · no-log · global</div>
+      <div class="svc-status" style="color:var(--acid)">● LIVE</div>
+    </div>
+
+    <div class="service-cell" data-index="16">
+      <div class="svc-name"><span class="svc-color" style="background:var(--pink)"></span>GAMES STUDIO</div>
+      <div class="svc-desc">Собственная игровая студия. Эксклюзивы для Star Stream.</div>
+      <div class="svc-tags">games · studio · exclusives</div>
+      <div class="svc-status" style="color:var(--pink)">● DEV</div>
+    </div>
+
+    <div class="service-cell" data-index="17">
+      <div class="svc-name"><span class="svc-color" style="background:var(--pink)"></span>ANIMATION STUDIO</div>
+      <div class="svc-desc">Анимационная студия. Оригинальный контент для Stream и HOLST.</div>
+      <div class="svc-tags">animation · original · creative</div>
+      <div class="svc-status" style="color:var(--pink)">● DEV</div>
+    </div>
+
+    <div class="service-cell" data-index="18">
+      <div class="svc-name"><span class="svc-color" style="background:var(--acid)"></span>HOLST</div>
+      <div class="svc-desc">Творческое пространство. Онлайн-инструменты + физические локации: Amsterdam, Tokyo, NYC.</div>
+      <div class="svc-tags">creative · irl · community · tools</div>
+      <div class="svc-status" style="color:var(--gold)">● BETA</div>
+    </div>
+  </div>
+</section>
+
+<!-- STATS -->
+<div class="stats-bar">
+  <div class="stat">
+    <div class="num" style="color:var(--cyan)">18</div>
+    <div class="lbl">services online</div>
+  </div>
+  <div class="stat">
+    <div class="num" style="color:var(--violet)">6</div>
+    <div class="lbl">clusters</div>
+  </div>
+  <div class="stat">
+    <div class="num" style="color:var(--pink)">4</div>
+    <div class="lbl">server nodes</div>
+  </div>
+  <div class="stat">
+    <div class="num" style="color:var(--acid)">∞</div>
+    <div class="lbl">uptime target</div>
+  </div>
+</div>
+
+<!-- MANIFESTO -->
+<section class="manifesto" id="manifesto">
+  <div class="manifesto-bg-text">STAR★PROJECT</div>
+  <div class="manifesto-content">
+    <p>Мы не делаем <span class="cy">приложения</span>.</p>
+    <p>Мы строим <span class="vi">цифровую нервную систему</span> — 18 сервисов, сплетённых в один <span class="pk">организм</span>.</p>
+    <p>Каждый узел <span class="ac">живой</span>. Каждый сигнал <span class="cy">осмыслен</span>. Каждый байт <span class="pk">защищён</span>.</p>
+    <div class="manifesto-note">STAR PROJECT // BUILT FROM THE VOID // ALPHA 2026</div>
+  </div>
+</section>
+
+<!-- DATA STRIP 2 -->
+<div class="data-strip" style="border-color:rgba(255,64,129,0.08)">
+  <div class="data-strip-inner" style="animation-duration:60s;animation-direction:reverse">
+    <span>&nbsp;&nbsp;&nbsp;R42 ◻ C14 ◻ L1 ◻ R169 ◻ LT1-1102 ◻ 11801S ◻ STAR_PROJECT ◻ REV.C ◻ PCB_LAYER_4 ◻ IMPEDANCE: 50Ω ◻ VCC: 3.3V ◻ GND ◻ SIGNAL_INTEGRITY: OK ◻ THERMAL: 42°C ◻ R42 ◻ C14 ◻ L1 ◻ R169 ◻ LT1-1102 ◻ 11801S ◻ STAR_PROJECT ◻ REV.C ◻ PCB_LAYER_4 ◻ IMPEDANCE: 50Ω ◻ VCC: 3.3V ◻ GND ◻ SIGNAL_INTEGRITY: OK ◻ THERMAL: 42°C ◻&nbsp;&nbsp;&nbsp;</span>
+    <span>&nbsp;&nbsp;&nbsp;R42 ◻ C14 ◻ L1 ◻ R169 ◻ LT1-1102 ◻ 11801S ◻ STAR_PROJECT ◻ REV.C ◻ PCB_LAYER_4 ◻ IMPEDANCE: 50Ω ◻ VCC: 3.3V ◻ GND ◻ SIGNAL_INTEGRITY: OK ◻ THERMAL: 42°C ◻ R42 ◻ C14 ◻ L1 ◻ R169 ◻ LT1-1102 ◻ 11801S ◻ STAR_PROJECT ◻ REV.C ◻ PCB_LAYER_4 ◻ IMPEDANCE: 50Ω ◻ VCC: 3.3V ◻ GND ◻ SIGNAL_INTEGRITY: OK ◻ THERMAL: 42°C ◻&nbsp;&nbsp;&nbsp;</span>
+  </div>
+</div>
+
+<!-- CTA -->
+<section class="cta-section" id="cta">
+  <div class="cta-box">
+    <h3>ENTER THE <span>NETWORK</span></h3>
+    <p>Получи ранний доступ к экосистеме. Первые 1000 пользователей — полный доступ ко всем сервисам навсегда.</p>
+    <div class="cta-input-row">
+      <input type="email" placeholder="your@email.com">
+      <button class="btn-raw">TRANSMIT_</button>
+    </div>
+    <div class="cta-footer">ZERO TRACKING ◻ E2E ENCRYPTED ◻ NO SPAM ◻ PRIVACY FIRST</div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-grid">
+    <div class="footer-brand-col">
+      <div class="f-logo">STAR <span>PROJECT</span></div>
+      <div class="f-tagline">DIGITAL ECOSYSTEM // 2026</div>
+      <div class="f-status">● ALL SYSTEMS OPERATIONAL</div>
+    </div>
+    <div class="footer-col">
+      <h4>Web</h4>
+      <a href="#">Star Search</a>
+      <a href="#">Star Browser</a>
+      <a href="#">Star Mail</a>
+      <a href="#">Star VPN</a>
+    </div>
+    <div class="footer-col">
+      <h4>Cloud + AI</h4>
+      <a href="#">Star Cloud</a>
+      <a href="#">Star Drive</a>
+      <a href="#">Star AI</a>
+    </div>
+    <div class="footer-col">
+      <h4>Media</h4>
+      <a href="#">Star Music</a>
+      <a href="#">Star Stream</a>
+      <a href="#">Watch Party</a>
+      <a href="#">HOLST</a>
+    </div>
+    <div class="footer-col">
+      <h4>Commerce</h4>
+      <a href="#">Star Pay</a>
+      <a href="#">Star Market</a>
+      <a href="#">Star Maps</a>
+      <a href="#">Star Social</a>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <span>&copy; 2026 STAR_PROJECT</span>
+    <span>NODE: NL-FLEV-01 ◻ DE-FRA-02 ◻ JP-TKY-03 ◻ US-NYC-04</span>
+    <span>BUILD: 0.1.0-ALPHA</span>
+  </div>
+</footer>
+
+</body>
+</html>
